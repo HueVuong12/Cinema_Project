@@ -62,8 +62,8 @@ CREATE TABLE Phong (
 CREATE TABLE MaGiamGia (
     maGiamGia NVARCHAR(50) PRIMARY KEY,
     phanTramGiam INT,
-    ngayBatDau DATETIME,
-    ngayKetThuc DATETIME,
+    ngayBatDau DATE,
+    ngayKetThuc DATE,
     dieuKienApDung NVARCHAR(255)
 );
 
